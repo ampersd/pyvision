@@ -1,5 +1,6 @@
 import pyvision as pv
-import PIL, cv
+import PIL
+import cv2.cv as cv
 ilog = pv.ImageLog()
 
 im = pv.Image("baboon.jpg")
